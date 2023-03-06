@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding-top: 10px;
+    background: url('Image/bg.jpg');
+    background-size: 100% ;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    z-index: 222;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: right;
+    margin-right: 100px;
+}
+ul li{
+    margin: 0 30px;
+    
+}
+ul li a{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff2400;
+}
+ul li a:hover {
+    color: White;
+    border: 1px solid #36454f ;
+    background-color: #36454f;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 1000;
+    padding:50px;
+    padding-top: 10px;
+}
+.logo b{
+    color: red;
+    font-size: 35px;
+}
+.row{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 116px);
+}
+.cols{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding-left: 60px;
+}
+.textdata h2{
+    font-size: 3em;
+    font-weight: 600px;
+    color: black;
+    z-index: 111;
+}
+.textdata h2 span{
+    color: #ff2400;
+    font-weight: 900;
+}
+.textdata h3{
+    font-size: 2em;
+    font-weight: 400;
+    color: Black;
+    margin: 10px 0;
+}
+.textdata  p{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0;
+}
+.textdata .btn{
+    width: 100%;
+    padding: 20px;
+    
+}
+.btn button{
+    border: none;
+    background: red;
+    color: #36454f;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+.btn button a:hover{
+    transition: 0.3s ease;
+    padding: 10px 40px;
+    background-color: #36454f;
+    color: white;
+}
+.btn button:hover{
+    transition: 0.3s ease;
+    padding: 10px 40px;
+    background-color: #36454f;
+    color: white;
+}
+.text-control{
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    text-align: center;
+    height: 50%;
+}
+.sociallink{
+    position: absolute;
+    bottom: 80px;
+}
+.sociallink i{
+    padding-top: 10px;
+    font-size: 1.7em;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #36454f;
+    transition: 0.2s ease;
+}
+.sociallink i:hover{
+    font-size: 2em;
+    color: #ff2400;
+    transition: 0.2s ease;
+}
+.img{
+    overflow: hidden;
+}
+.imgbox{
+    position: relative;
+    width: 100%;
+    top: 80px;
+    
+    z-index: 1;
+    transition: 0.3s ease;
+}
+.imgbox img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.img:hover .imgbox{
+    transform: translateX(-10px);
+}
+.img .color{
+    position: absolute;
+    background: url('color.png');
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    right: 40px;
+    top: 50px;
+    transition: 0.3s ease;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.text{
+    width: 100%;
+}
+.text h1{
+    position: absolute;
+    top:30%;
+    left: 90px;
+    color: #070468;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.text h1:hover{
+    background-color: #fff;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    color: black;
+    font-size: 50px;
+}
+.text p1{
+    position: absolute;
+    top:40%;
+    left: 90px;
+    color: #161d21;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text p1:hover{
+    background-color: #36354f;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.text p2{
+    position: absolute;
+    top:45%;
+    left: 90px;
+    color: #161d21;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text p2:hover{
+    background-color: #36354f;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.text p3{
+    position: absolute;
+    top:50%;
+    left: 90px;
+    color: #161d21;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text p3:hover{
+    background-color: #36354f;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.text p4{
+    position: absolute;
+    top:55%;
+    left: 90px;
+    color: #161d21;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text p4:hover{
+    background-color: #36354f;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.btn{
+    width: 100%;
+    padding: 20px;
+}
+.btn-class button{
+    position: absolute;
+    top:70%;
+    left: 90px;
+    color: #161d21;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    background: white;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-class button:hover{
+    transition: 0.3s ease;
+    padding: 10px 40px;
+    background-color: #36454f;
+    color: white;
+}
+.sociallink-index{
+    position: absolute;
+    top:80%;
+    left: 110px;
+}
+.sociallink-index i{
+    padding-top: 10px;
+    font-size: 1.7em;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #36454f;
+    transition: 0.2s ease;
+}
+.sociallink-index i:hover{
+    font-size: 2em;
+    color: #ff2400;
+    transition: 0.2s ease;
+}
+h5{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.gellery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 25px rgba(0,0,0, 0, 0.30),
+    0 15px 15px rgba(0,0,0, 0, 0.27);
+    background: transparent;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.6s;
+    
+}
+.content:hover{
+    height: 50%;
+    border-radius: 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0, 0, 0.30),
+    0 15px 15px rgba(0,0,0, 0, 0.37);
+    transform: translate(0px, -10px);
+    background: transparent;
+    backdrop-filter: blur(30px);
+    
+}
+.content:hover h5{
+    display: block;
+    color: red;
+    background:transparent ;
+    border-radius: 20%;
+    font-weight: 900px;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+.content img{
+    border-radius: 50px;
+    width: 100%;
+    align-items: center;
+    background: transparent;
+     backdrop-filter: blur(20px);
+}
+.content:hover img{
+    border-radius: 75%;
+    width: 60%;
+    transition: 0.5s ease;
+}
+
+.content p{
+    display: none;
+    font-size: 10px;
+    font-weight: 900;
+}
+.content:hover p{
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    color: aqua;
+    transition: 0.5s ease;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.content:hover a{
+    color:white;
+}
+.content .btn-video{
+    width: 100%;
+    padding: 20px;
+}
+.content .btn-video button{
+    display: none ;
+    top:88%;
+    left: 35%;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    background: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.content:hover button{
+    display: block;
+    top:88%;
+    left: 35%;
+    transition: 0.5s ease;
+    background-color: red;
+    color: white;
+}
+.wrapper{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 440px;
+    height: 440px;
+    background: transparent;border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper .from-box{
+    width: 100%;
+    padding: 40px;
+}
+.wrapper .from-box h2{
+    font-size: 2em;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+.input-box label{
+    position: relative;
+    top: 5%;
+    left: -200px;
+    transform: translate(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -15px;
+
+}
+
+.input-box input{
+
+    width: 200px;
+    height: 100%;
+    top: 5%;
+    background: transparent;
+    border: none;
+    outline: none;
+    line-height: 57px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: 0.9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color: #162938;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #162938;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn-1{
+    width: 100%;
+    height: 34px;
+    color: #fff;
+    background: #162938;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-1:hover{
+    width: 100%;
+    height: 34px;
+    background: #351638;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.7s ease-in-out;
+}
+.login-register{
+    font-size: 0.9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a {
+    color: #ff1313;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+ 

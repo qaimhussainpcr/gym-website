@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">G <b>y</b> M</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="payment.html">Payment</a></li>
+
+            </ul>
+        </nav>
+        <div class="pay">
+            <h1>Payment Card</h1>
+            <form action="index.html" method="post">
+                <h4>Account</h4>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required class="name">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="input-box">
+                            <input type="text" placeholder="Nick Name" required class="name">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="email" placeholder="Email" required class="name">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="input-box">
+                                <input type="password" placeholder="Password" required class="name">
+                                <i class="fa-solid fa-lock" for="password"></i>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <h4>Date Of Birth</h4>
+                            <div class="input-box">
+                                <input type="text" class="name-1" placeholder="DD">
+                                <input type="text" class="name-1" placeholder="MM">
+                                <input type="text" class="name-1" placeholder="YYYY">
+                            </div>
+                            <div class="input-box">
+                                <h4>Gender</h4>
+                                <input type="radio" name="gender" id="b1" class="radio">
+                                <label for="b1">Male</label>
+                                <input type="radio" name="gender" id="b1" class="radio">
+                                <label for="b1">Female</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <h4>Payment Details</h4>
+                            <div class="input-box">
+                                <input type="radio" id="bc1" class="radio">
+                                <label for="bc1"><span><i class="fab fa-cc-visa"></i></span> Credit Card</label>
+                                <input type="radio" id="bc1" class="radio">
+                                <label for="bc1"><span><i class="fab fa-cc-paypal"></i></span> Paypal</label>
+                                <input type="radio" id="bc1" class="radio">
+                                <label for="bc1"><span><i class="fab fa-cc-jcb"></i></span> Paypal</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-box">
+                                <input type="tel" placeholder="Card Number" required class="name">
+                                <i class="fa-regular fa-credit-card"></i>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-box">
+                                <input type="tel" placeholder="Card CVC" required class="name">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="input-box">
+                                <select>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                                <select>
+                                    <option>January</option>
+                                    <option>febury</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>Jun</option>
+                                    <option>July</option>
+                                    <option>Augest</option>
+                                    <option>September</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                                <select>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2027</option>
+                                    <option>2028</option>
+                                    <option>2029</option>
+                                    <option>2030</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                            <div class="btn">
+                                <button type="submit" >PAY NOW</button>
+                            </div>
+                       
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

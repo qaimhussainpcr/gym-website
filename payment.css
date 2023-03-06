@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding-top: 10px;
+    background: url('Image/bg.jpg');
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    z-index: 222;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: right;
+    margin-right: 100px;
+}
+ul li{
+    margin: 0 30px;
+    
+}
+ul li a{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ff2400;
+}
+ul li a:hover {
+    color: White;
+    border: 1px solid #36454f ;
+    background-color: #36454f;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 1000;
+    padding:50px;
+    padding-top: 10px;
+}
+.logo b{
+    color: red;
+    font-size: 35px;
+}
+.pay{
+    width: 40%;
+    padding: 5px 25px;
+    margin-left: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #36454f;
+    background: transparent;
+    backdrop-filter: blur(20px);
+   
+}
+.pay h1{
+    color: #7ed321;
+    font-size: 30px;
+    text-align: center;
+    border: 2px dotted #333;
+    width: 100%;
+    font-weight: 900;
+}
+h4{
+    color: #d11717;
+    padding-bottom: 5px;
+    
+}
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+}
+.input-box{
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 5px;
+    border: none;
+    background: transparent;
+}
+.input-box .name{
+    background: transparent;
+    
+}
+.input-box:hover .name{
+   background-color: aliceblue;
+   padding: 5px 10px;
+   border-radius: 20px;
+    
+}
+.input-box .name-1{
+    width: 15%;
+    background: transparent;
+    text-align: center;
+}
+.input-box:hover .name-1{
+    width: 15%;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 20px;
+   
+}
+.btn{
+    margin: 40px 150px;
+   
+}
+.btn button{
+    padding: 5px 45px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.btn:hover button{
+    padding: 8px 55px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
